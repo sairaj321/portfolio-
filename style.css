@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(135deg, #1c1c2b, #0d7377);
+    color: #f5f5f5;
+    /* font-family: Arial, sans-serif; */
+    font-family: Tahoma, sans-serif;
+  }
+  header {
+    /* background-color: #0d7377; */
+    padding: 15px 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .navbar {
+    justify-content: end;
+  }
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .navbar .menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  .navbar .menu a:hover {
+    color: #14ffec;
+  }
+  .intro {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .intro .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  .intro .name {
+    color: #14ffec;
+  }
+  .intro p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  .social-icons img:hover {
+    transform: scale(1.2);
+  }
+
+  
